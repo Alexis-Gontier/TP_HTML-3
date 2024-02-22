@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Oswald:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-image: url(../img/fond.png);
+    width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2, nav {
+    font-family: Oswald, Verdana, sans-serif;
+}
+
+p, li {
+    color: gray;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background: #181818;
+    color: white;
+}
+
+.btn:hover {
+    background: #c29963;
+    color: #181818;
+}
+/* ----------- HEADER start ------------ */
+
+header {
+    background: #181818;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    margin-right: 50px;
+    color: #c29963;
+    text-transform: uppercase;
+}
+
+/* ------------- HEADER end ------------ */
+
+/* ------------ MAIN start ------------ */
+
+main {
+    background: white;
+    padding: 30px 30px;
+}
+
+h2 {
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+main .img-text {
+    padding-bottom: 10px;
+}
+
+main .who img,
+main .what img {
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+main .who a,
+main .what a {
+    float: right;
+}
+
+li {
+    margin-left: 50px;
+}
+
+
+
+/* ---------------- MAIN end ------------ */
+
+footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    padding: 0;
+}
